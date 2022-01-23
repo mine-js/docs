@@ -2,22 +2,26 @@
 sidebar_position: 1
 ---
 
-# 시작하기
+# Getting started
 
-MineJS를 시작해봅시다.
+## Plugin
 
-## 플러그인 설치
+### Install at Releases
 
-### Releases에서 설치
+Download Pre-compiled jar on [GitHub Releases](https://github.com/mine-js/mine.js/releases)
 
-Releases에서 **Pre-Compiled**된 MineJS를 설치합니다.
+:::tip
 
-### 직접 컴파일
+This way can't be used now!
 
-GitHub에서 MineJS 저장소를 직접 복제받아서 컴파일합니다.
+:::
 
-IntelliJ에서 bukkit 멀티프로젝트의 shadowJar을 실행하거나 해당 OS의 터미널에서 다음의 명령어를 실행합니다.
+### Manually Compile
 
+Clone Mine.JS from GitHub and compile!
+
+Run `shadowJar` task of bukkit sub-project on IntelliJ's Gradle panel\
+Also you can run below command to compile Mine.js!
 ```shell
 ./gradlew bukkit:shadowJar
 ```

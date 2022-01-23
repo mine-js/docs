@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'MineJS Docs',
-  tagline: '버킷 기능을 JS로 코딩하세요!',
+  tagline: 'MineJS is a scripting plugin for the Bukkit!',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -51,9 +51,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '튜토리얼',
+            label: 'Tutorial',
           },
-          {to: '/blog', label: '블로그', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/mine-js',
             label: 'GitHub',
@@ -65,16 +65,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: '문서',
+            title: 'Documentation',
             items: [
               {
-                label: '시작',
+                label: 'Getting Started!',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: '커뮤니티',
+            title: 'Community',
             items: [
               {
                 label: 'Discord',
@@ -83,10 +83,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: '더...',
+            title: 'More...',
             items: [
               {
-                label: '블로그',
+                label: 'Blog',
                 to: '/blog',
               },
               {
